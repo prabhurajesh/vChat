@@ -36,7 +36,8 @@ class _HomeScreen extends State<HomeScreen> {
               )
             : Text(
                 "vChat ",
-                style: TextStyle(fontSize: 30, color: Colors.white),
+                // style: TextStyle(fontSize: 30, color: Colors.white),
+                style: Theme.of(context).textTheme.display1,
               ),
         actions: <Widget>[
           search

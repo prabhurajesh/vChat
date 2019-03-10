@@ -32,6 +32,7 @@ class ChatItem extends StatelessWidget {
     return Column(
       children: <Widget>[
         ListTile(
+            contentPadding: EdgeInsets.all(2),
             leading: imagepath == null
                 ? Container(
                     width: width * 0.15,
@@ -78,7 +79,7 @@ class ChatItem extends StatelessWidget {
               ),
             ),
             trailing: Container(
-              width: width * 0.16,
+              width: width * 0.17,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -137,7 +138,7 @@ class ChatItem extends StatelessWidget {
           width: width,
           height: 0.5,
           color: Colors.grey,
-          margin: EdgeInsets.only(left: 96),
+          margin: EdgeInsets.only(left: 87),
         ),
         Padding(
           padding: EdgeInsets.only(bottom: 15),

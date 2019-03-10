@@ -28,7 +28,7 @@ class _AddContact extends State<AddContact> {
         ),
         body: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.all(18),
+            padding: const EdgeInsets.all(8),
             child: Column(
               children: <Widget>[
                 Center(

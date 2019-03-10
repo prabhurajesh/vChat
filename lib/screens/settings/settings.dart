@@ -87,7 +87,7 @@ class _Settings extends State<Settings> {
               children: <Widget>[
                 Card(
                   child: Container(
-                    height: height * 0.35,
+                    height: height * 0.36,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
@@ -102,7 +102,7 @@ class _Settings extends State<Settings> {
                           ),
                         ),
                         Container(
-                          height: height * 0.09,
+                          height: height * 0.10,
                           width: width,
                           decoration: BoxDecoration(
                               border: Border(
@@ -166,7 +166,7 @@ class _Settings extends State<Settings> {
                 ),
                 Card(
                   child: Container(
-                    height: height * 0.61,
+                    height: height * 0.62,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
@@ -299,7 +299,7 @@ class _Settings extends State<Settings> {
                 ),
                 Card(
                   child: Container(
-                    height: height * 0.21,
+                    height: height * 0.22,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[

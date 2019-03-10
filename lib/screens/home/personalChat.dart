@@ -132,7 +132,7 @@ class _PersonalChat extends State<PersonalChat> {
                     ),
                     Container(
                       //height: height * 0.20,
-                      width: width * 0.65,
+                      width: width * 0.60,
                       child: TextField(
                         decoration: InputDecoration(
                             hintText: "Type a Message",

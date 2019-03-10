@@ -50,7 +50,7 @@ class CountryPicker extends StatelessWidget {
           children: <Widget>[
             CountryPickerUtils.getDefaultFlagImage(country),
             SizedBox(
-              width: 8.0,
+              width: 5.0,
             ),
             Text("+${country.phoneCode}(${country.isoCode})"),
           ],
