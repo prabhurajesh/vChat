@@ -23,7 +23,7 @@ class AttachmentIcons extends StatelessWidget {
       children: <Widget>[
         Container(
           width: width * 0.15,
-          height: height * 0.10,
+          height: height * 0.09,
           decoration: BoxDecoration(shape: BoxShape.circle, color: color),
           child: Icon(
             homeIcon,

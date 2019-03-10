@@ -12,10 +12,11 @@ class Attachment extends StatelessWidget {
           width: width,
           height: height * 0.25,
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
+            //crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  //crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     AttachmentIcons(
@@ -35,7 +36,7 @@ class Attachment extends StatelessWidget {
                     ),
                   ]),
               Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
+                // crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   AttachmentIcons(
